@@ -10,24 +10,23 @@
 <meta name="verify-v1" content="Qq+XPoXPwXj/cVHTHs8U/fzQN7Xh39miwQR9lW2Wbp0=" >
 </head>
 <body>
-<div>
+<div class='panino_logo_box'>
 	<img src="images/panino.png" alt="Panino Logo" />
 </div>
-<div>
-	<img src='images/EU/EL.png' alt="EU Fund Logo" width=64px height=64px />
-	<img src='images/EU/espa1420_logo_rgb.jpg' alt="ESPA Logo" width=64px height=64px />
+  <?php include("language_switch.php"); ?>
 </div>
-<?php include("language_switch.php"); ?>
 <div id="mod-id" class="mod">
+  <?php include("espa_logo.php"); ?>
    <div class="mod-content">
-     <div class="hd">
-         <?php include("nav.php"); ?>
-     </div>
-     <div class="bdlogo">
-       <img src="images/logo2.jpg" alt="25 years panino" />
-       </div>
-     <div class="ft">
+      <div class="hd">
+        <?php include("nav.php"); ?>
+      </div>
+      <div class="bdlogo">
+        <img src="images/logo2.jpg" alt="25 years panino" />
+      </div>
+      <div class="ft">
         <?php include("foot.php"); ?>
+      </div>
 </div>
 
 <script type="text/javascript">
@@ -36,10 +35,10 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
 </script>
 
 <script type="text/javascript">
-try{
-var pageTracker = _gat._getTracker("UA-6754715-1");
-pageTracker._trackPageview();
-} catch(err) {}
+  try{
+    var pageTracker = _gat._getTracker("UA-6754715-1");
+    pageTracker._trackPageview();
+  } catch(err) {}
 </script>
 </body>
 </html>

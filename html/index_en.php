@@ -10,17 +10,19 @@
 <meta name="verify-v1" content="Qq+XPoXPwXj/cVHTHs8U/fzQN7Xh39miwQR9lW2Wbp0=" >
 </head>
 <body>
-<img src="images/panino.png" alt="Panino Logo" />
+<div class='panino_logo_box'>
+	<img src="images/panino.png" alt="Panino Logo" />
+</div>
 <?php include("language_switch.php"); ?>
 <div id="mod-id" class="mod">
-
+<?php include("espa_logo_en.php"); ?>
    <div class="mod-content">
      <div class="hd">
          <?php include("nav_en.php"); ?>
      </div>
-     <div class="bdlogo">
-       <img src="images/logo2.jpg" alt="25 years panino" />
-       </div>
+    <div class="bdlogo">
+      <img src="images/logo2.jpg" alt="25 years panino" />
+    </div>
      <div class="ft">
         <?php include("foot_en.php"); ?>
 </div>

@@ -278,3 +278,23 @@ ul.navbot_contact li a.current span {
 .contact textarea {
   width:260px;
 }
+
+.eu_logo_box {
+  margin-bottom: 15px;
+}
+
+.eu_fund_logo {
+  max-width: 275px;
+}
+
+.espa_logo {
+  max-width: 95px;
+}
+
+.panino_logo_box {
+  margin-bottom: -20px;
+}
+
+.bd p {
+  text-align: left;
+}

@@ -11,7 +11,7 @@
 <img src="images/panino.png" alt="Panino Logo" />
 <?php include("language_switch.php"); ?>
 <div id="mod-id" class="mod">
-
+<?php include("espa_logo_en.php"); ?>
    <div class="mod-content">
      <div class="hd">
          <?php include("nav_en.php"); ?>

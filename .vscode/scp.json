@@ -1,0 +1,8 @@
+{
+    "host": "paninohome.com",
+    "port": 2222,
+    "user": "paninohome",
+    "ignore":[".git",".vscode"],
+    "remotePath": "/var/www/paninohome.com/",
+    "uploadOnSave": true
+}
