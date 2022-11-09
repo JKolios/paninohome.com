@@ -10,7 +10,13 @@
 <meta name="verify-v1" content="Qq+XPoXPwXj/cVHTHs8U/fzQN7Xh39miwQR9lW2Wbp0=" >
 </head>
 <body>
-<img src="images/panino.png" alt="Panino Logo" />
+<div>
+	<img src="images/panino.png" alt="Panino Logo" />
+</div>
+<div>
+	<img src='images/EU/EL.png' alt="EU Fund Logo" width=64px height=64px />
+	<img src='images/EU/espa1420_logo_rgb.jpg' alt="ESPA Logo" width=64px height=64px />
+</div>
 <?php include("language_switch.php"); ?>
 <div id="mod-id" class="mod">
    <div class="mod-content">
